@@ -73,7 +73,11 @@ https://k8slens.dev/download
 
 #### Install Discord
 
-https://discord.com/download
+For ARM devices, we currently recommend using ARMCORD as the official Discord app can have hickups and stutters running the x64 architecture on your ARM device.
+
+- [ARMCORD](https://armcord.app/)
+- [ARMCORD Github](https://github.com/ArmCord/ArmCord)
+- [Discord Download](https://discord.com/download)
 
 ##### Creating a Company Discord Account
 
