@@ -13,7 +13,8 @@ Documentation and best practices for development and end-user workstation deploy
 
 ## Currently Tested Devices
 
-- [Samsung Galaxy Book Edge 4 (Snapdragon Elite X1E-84-100)]
+- [Samsung Galaxy Book Edge 4 (Snapdragon Elite X1E-84-100)](https://www.samsung.com/us/computing/galaxy-books/galaxy-book4-edge/)
+- [Razer Blade 15 (2020) Advanced 3070 GPU](https://mysupport.razer.com/app/answers/detail/a_id/3618/kw/Blade%2015%202020)
 
 ## Device Paradigm Workflows
 
