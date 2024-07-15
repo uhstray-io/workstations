@@ -10,22 +10,22 @@ Reference : https://answers.microsoft.com/en-us/windows/forum/all/how-to-disable
 
 #### 1. Open the Registry Editor by pressing `Win + R` and typing `regedit` and pressing `Enter`.
 
-![Open Registry Editor](.images/open_regedit.png)
+<img src=".images/open_regedit.png" width = "400"></a>
 
 #### 2. Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`.
 #### 3. Right-click on the `Windows` folder and select `New > Key` and name it `Explorer`.
 
-![Create New Key](.images/new_key.png)
+<img src=".images/new_key.png" width = "800"></a>
 
 #### 4. Right-click on the right pane and select `New > DWORD (32-bit) Value` and name it `DisableSearchBoxSuggestions`.
    
-![Create New DWORD Value](.images/new_dword.png)
+<img src=".images/new_dword.png" width = "800"></a>
 
 #### 5. Right-click on the new DWORD value and select `Modify` and set the value to `1`.
 
 The final product should look something like this.
 
-![Disable Internet Search for Windows Search](.images/Disable_Internet_Search.png)
+<img src=".images/Disable_Internet_Search.png" width = "800"></a>
 
 ### Disable Windows Update Delivery Optimization
 
