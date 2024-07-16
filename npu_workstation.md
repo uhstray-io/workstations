@@ -33,6 +33,16 @@ Disable Windows Update Delivery Optimization to prevent Windows from using your 
 
 ![Disable Windows Update Delivery Optimizatin](.images/Disable_Delivery_Optimization.png)
 
+### Disable Windows Hibernation
+
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/disable-and-re-enable-hibernation
+
+Run the Terminal as Administrator and run the following command:
+
+```powershell
+powercfg /hibernate off
+```
+
 ### Enable Legacy Right Click Context Menu for Windows 11 Explorer
 
 ### Setup PowerSettings to Optimize Usage and Battery Life
