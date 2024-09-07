@@ -10,11 +10,12 @@
 
 ### Discord
 
+### Download Git & Gitbash
+
 ### Github Desktop
 
 ### VSCode
 
-### Proton Mail & Drive
+### Proton Mail, Drive, & VPN
 
 ### Microsoft OneDrive and Office
-
