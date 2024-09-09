@@ -22,9 +22,9 @@
     - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
     - [Discord](#discord)
       - [Install Discord](#install-discord)
-        - [Creating a Company Discord Account](#creating-a-company-discord-account)
-        - [Bringing over a Personal Discord Account](#bringing-over-a-personal-discord-account)
-        - [Get Connected on Discord](#get-connected-on-discord)
+      - [Creating a Company Discord Account](#creating-a-company-discord-account)
+      - [Bringing over a Personal Discord Account](#bringing-over-a-personal-discord-account)
+      - [Get Connected on Discord](#get-connected-on-discord)
     - [Proton Mail, Drive, \& VPN](#proton-mail-drive--vpn)
       - [Proton Mail](#proton-mail)
       - [Proton VPN](#proton-vpn)
@@ -149,11 +149,11 @@ For ARM devices, we currently recommend using ARMCORD as the official Discord ap
 - [ARMCORD](https://armcord.app/)
 - [ARMCORD Github](https://github.com/ArmCord/ArmCord)
 
-##### Creating a Company Discord Account
+#### Creating a Company Discord Account
 
-##### Bringing over a Personal Discord Account
+#### Bringing over a Personal Discord Account
 
-##### Get Connected on Discord
+#### Get Connected on Discord
 
 Join the uhstray.io [discord](https://discord.uhstray.io) server.
 
