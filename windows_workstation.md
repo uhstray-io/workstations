@@ -4,25 +4,22 @@
   - [Initial Configuration for Windows 11](#initial-configuration-for-windows-11)
     - [Windows Deinshitification Updates](#windows-deinshitification-updates)
       - [Disable Internet Search for Windows Search](#disable-internet-search-for-windows-search)
-        - [1. Open the Registry Editor by pressing `Win + R` and typing `regedit` and pressing `Enter`.](#1-open-the-registry-editor-by-pressing-win--r-and-typing-regedit-and-pressing-enter)
-        - [2. Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`.](#2-navigate-to-hkey_current_usersoftwarepoliciesmicrosoftwindows)
-        - [3. Right-click on the `Windows` folder and select `New > Key` and name it `Explorer`.](#3-right-click-on-the-windows-folder-and-select-new--key-and-name-it-explorer)
-        - [4. Right-click on the right pane and select `New > DWORD (32-bit) Value` and name it `DisableSearchBoxSuggestions`.](#4-right-click-on-the-right-pane-and-select-new--dword-32-bit-value-and-name-it-disablesearchboxsuggestions)
-        - [5. Right-click on the new DWORD value and select `Modify` and set the value to `1`.](#5-right-click-on-the-new-dword-value-and-select-modify-and-set-the-value-to-1)
       - [Disable Windows Update Delivery Optimization](#disable-windows-update-delivery-optimization)
       - [Disable Windows Hibernation](#disable-windows-hibernation)
       - [Enable Legacy Right Click Context Menu for Windows 11 Explorer](#enable-legacy-right-click-context-menu-for-windows-11-explorer)
         - [Use the following commands to revert the changes:](#use-the-following-commands-to-revert-the-changes)
-    - [Browser Install \& Setup](#browser-install--setup)
-    - [Nvidia Driver Updates](#nvidia-driver-updates)
-    - [Windows 11 Bloatware Removal](#windows-11-bloatware-removal)
-    - [Windows 11 Tweaks \& Best Practices](#windows-11-tweaks--best-practices)
-    - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
     - [Setup PowerSettings to Optimize Usage and Battery Life](#setup-powersettings-to-optimize-usage-and-battery-life)
     - [Setup Windows Secure Access](#setup-windows-secure-access)
       - [Prompt for Scheduled Reboot Windows for Windows Updates](#prompt-for-scheduled-reboot-windows-for-windows-updates)
       - [Force PIN Authentication](#force-pin-authentication)
       - [Setup Device and Account Recovery](#setup-device-and-account-recovery)
+    - [Windows 11 Bloatware Removal](#windows-11-bloatware-removal)
+    - [Windows 11 Tweaks \& Best Practices](#windows-11-tweaks--best-practices)
+  - [Driver and 3rd Party Software Configuration](#driver-and-3rd-party-software-configuration)
+    - [Nvidia Driver Updates](#nvidia-driver-updates)
+  - [Office and Productivity Software](#office-and-productivity-software)
+    - [Browser Install \& Setup](#browser-install--setup)
+    - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
     - [Discord](#discord)
       - [Install Discord](#install-discord)
         - [Creating a Company Discord Account](#creating-a-company-discord-account)
@@ -50,20 +47,21 @@ Force Windows to use only the local search index and not the internet for search
 
 Reference : https://answers.microsoft.com/en-us/windows/forum/all/how-to-disable-search-the-web-completley-in/ea22410a-3031-487f-b5de-5a0113d656c5
 
-##### 1. Open the Registry Editor by pressing `Win + R` and typing `regedit` and pressing `Enter`.
+1. Open the Registry Editor by pressing `Win + R` and typing `regedit` and pressing `Enter`.
 
 <img src=".images/open_regedit.png" width = "400"></a>
 
-##### 2. Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`.
-##### 3. Right-click on the `Windows` folder and select `New > Key` and name it `Explorer`.
+2. Navigate to `HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows`.
+
+3. Right-click on the `Windows` folder and select `New > Key` and name it `Explorer`.
 
 <img src=".images/new_key.png" width = "800"></a>
 
-##### 4. Right-click on the right pane and select `New > DWORD (32-bit) Value` and name it `DisableSearchBoxSuggestions`.
+4. Right-click on the right pane and select `New > DWORD (32-bit) Value` and name it `DisableSearchBoxSuggestions`.
    
 <img src=".images/new_dword.png" width = "800"></a>
 
-##### 5. Right-click on the new DWORD value and select `Modify` and set the value to `1`.
+5. Right-click on the new DWORD value and select `Modify` and set the value to `1`.
 
 The final product should look something like this.
 
@@ -110,19 +108,6 @@ Explorer must be restarted again for the effects to take change.
 
 _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-right-click-context-menu-in-windows-11/a62e797c-eaf3-411b-aeec-e460e6e5a82a_
 
-### Browser Install & Setup
-
-- [Brave Browser](https://brave.com/download/) Built on top of Chromium, our team recommends the Brave browser for its privacy, sync, and security features.
-- [Download Firefox Browser](https://www.mozilla.org/firefox/download/thanks/) Firefox is a well established browser that is developer and privacy friendly.
-
-### Nvidia Driver Updates
-
-### Windows 11 Bloatware Removal
-
-### Windows 11 Tweaks & Best Practices
-
-### Microsoft OneDrive and Office
-
 ### Setup PowerSettings to Optimize Usage and Battery Life
 
 ### Setup Windows Secure Access
@@ -132,6 +117,27 @@ _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-ri
 #### Force PIN Authentication
 
 #### Setup Device and Account Recovery
+
+### Windows 11 Bloatware Removal
+
+### Windows 11 Tweaks & Best Practices
+
+---
+
+## Driver and 3rd Party Software Configuration
+
+### Nvidia Driver Updates
+
+---
+
+## Office and Productivity Software
+
+### Browser Install & Setup
+
+- [Download Brave Browser](https://brave.com/download/) Built on top of Chromium, our team recommends the Brave browser for its privacy, sync, and security features.
+- [Download Firefox Browser](https://www.mozilla.org/firefox/download/thanks/) Firefox is a well established browser that is developer and privacy friendly.
+
+### Microsoft OneDrive and Office
 
 ### Discord
 
@@ -170,6 +176,8 @@ https://account.proton.me/drive
 For x86_x64 Architecture Devices:
 
 https://proton.me/drive/download
+
+---
 
 ## Installing Developer Resources
 
