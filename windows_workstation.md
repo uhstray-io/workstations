@@ -55,23 +55,23 @@ Reference : https://answers.microsoft.com/en-us/windows/forum/all/how-to-disable
 
 3. Right-click on the `Windows` folder and select `New > Key` and name it `Explorer`.
 
-<img src=".images/new_key.png" width = "800"></a>
+<img src=".images/new_key.png" width = "400"></a>
 
 4. Right-click on the right pane and select `New > DWORD (32-bit) Value` and name it `DisableSearchBoxSuggestions`.
    
-<img src=".images/new_dword.png" width = "800"></a>
+<img src=".images/new_dword.png" width = "400"></a>
 
 5. Right-click on the new DWORD value and select `Modify` and set the value to `1`.
 
 The final product should look something like this.
 
-<img src=".images/Disable_Internet_Search.png" width = "800"></a>
+<img src=".images/Disable_Internet_Search.png" width = "650"></a>
 
 #### Disable Windows Update Delivery Optimization
 
 Disable Windows Update Delivery Optimization to prevent Windows from using your computer to distribute updates to other computers.
 
-<img src=".images/Disable_Delivery_Optimization.png" width = "600"></a>
+<img src=".images/Disable_Delivery_Optimization.png" width = "800"></a>
 
 #### Disable Windows Hibernation
 
