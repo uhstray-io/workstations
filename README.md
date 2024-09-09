@@ -6,10 +6,10 @@ Documentation and best practices for development and end-user workstation deploy
   - [Table of Contents](#table-of-contents)
   - [Currently Tested Devices](#currently-tested-devices)
   - [Device Paradigm Workflows](#device-paradigm-workflows)
-    - [ARM Processor Workflows](#arm-processor-workflows)
-    - [NVIDIA GPU Workflows](#nvidia-gpu-workflows)
-    - [Apple Processor Workflows](#apple-processor-workflows)
     - [x86\_64 Processor Workflows](#x86_64-processor-workflows)
+    - [ARM Processor Workflows](#arm-processor-workflows)
+    - [Apple Processor Workflows](#apple-processor-workflows)
+    - [NVIDIA GPU Workflows](#nvidia-gpu-workflows)
 
 ## Currently Tested Devices
 
@@ -18,16 +18,17 @@ Documentation and best practices for development and end-user workstation deploy
 
 ## Device Paradigm Workflows
 
+### x86_64 Processor Workflows
+
+- Linux Workstation - [linux_workstation.md](linux_workstation.md)
+- Windows Workstation - [windows_workstation.md](windows_workstation.md)
+
 ### ARM Processor Workflows
 
 - Snapdragon NPU Laptop Workstation (Snapdragon Elite X1E-84-100) - [npu_workstation.md](npu_workstation.md)
 
+### Apple Processor Workflows
+
 ### NVIDIA GPU Workflows
 
 - NVIDIA CUDA GPU Workstation - [gpu_workstation.md](gpu_workstation.md)
-
-### Apple Processor Workflows
-
-### x86_64 Processor Workflows
-
-- Linux Workstation - [linux_workstation.md](linux_workstation.md)
