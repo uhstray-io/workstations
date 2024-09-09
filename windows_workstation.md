@@ -32,7 +32,8 @@
   - [Installing Developer Resources](#installing-developer-resources)
     - [Download Git \& Gitbash](#download-git--gitbash)
     - [Github Desktop](#github-desktop)
-    - [VSCode](#vscode)
+    - [Install VSCode](#install-vscode)
+    - [Install \& Configure Python](#install--configure-python)
     - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
       - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
     - [Mirantis Lens](#mirantis-lens)
@@ -142,12 +143,11 @@ _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-ri
 ### Discord
 
 #### Install Discord
-For x86_64 devices, we recommend using the official Discord app.
-For ARM devices, we currently recommend using ARMCORD as the official Discord app can have hickups and stutters running the x64 architecture on your ARM device.
+
+For **x86_64** devices, we recommend using the official Discord app. For **ARM7/8** devices, we currently recommend using ARMCORD as the official Discord app can have hickups and stutters running the x64 architecture on your ARM device.
 
 - [Discord Download](https://discord.com/download)
-- [ARMCORD](https://armcord.app/)
-- [ARMCORD Github](https://github.com/ArmCord/ArmCord)
+- [ARMCORD](https://armcord.app/),  [ARMCORD Github](https://github.com/ArmCord/ArmCord)
 
 #### Creating a Company Discord Account
 
@@ -189,9 +189,13 @@ https://git-scm.com/downloads
 
 https://desktop.github.com/download/
 
-### VSCode
+### Install VSCode
 
 https://code.visualstudio.com/download
+
+### Install & Configure Python
+
+
 
 ### Install Ubuntu WSL2
 
