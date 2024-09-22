@@ -15,8 +15,6 @@
       - [Prompt for Scheduled Reboot Windows for Windows Updates](#prompt-for-scheduled-reboot-windows-for-windows-updates)
       - [Force PIN Authentication](#force-pin-authentication)
       - [Setup Device and Account Recovery](#setup-device-and-account-recovery)
-    - [Windows 11 Bloatware Removal](#windows-11-bloatware-removal)
-    - [Windows 11 Tweaks \& Best Practices](#windows-11-tweaks--best-practices)
   - [Driver and 3rd Party Software Configuration](#driver-and-3rd-party-software-configuration)
     - [Nvidia Driver Updates](#nvidia-driver-updates)
   - [Office and Productivity Software](#office-and-productivity-software)
@@ -132,15 +130,15 @@ _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-ri
 
 #### Setup Device and Account Recovery
 
-### Windows 11 Bloatware Removal
-
-### Windows 11 Tweaks & Best Practices
-
 ---
 
 ## Driver and 3rd Party Software Configuration
 
 ### Nvidia Driver Updates
+
+https://www.nvidia.com/en-us/drivers
+
+
 
 ---
 
