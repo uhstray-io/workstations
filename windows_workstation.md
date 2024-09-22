@@ -3,6 +3,8 @@
 - [Windows Workstation](#windows-workstation)
   - [Initial Configuration for Windows 11](#initial-configuration-for-windows-11)
     - [Windows Deinshitification Updates](#windows-deinshitification-updates)
+      - [Win11Debloat](#win11debloat)
+      - [ExplorerPatcher](#explorerpatcher)
       - [Disable Internet Search for Windows Search](#disable-internet-search-for-windows-search)
       - [Disable Windows Update Delivery Optimization](#disable-windows-update-delivery-optimization)
       - [Disable Windows Hibernation](#disable-windows-hibernation)
@@ -37,10 +39,21 @@
     - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
       - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
     - [Mirantis Lens](#mirantis-lens)
+    - [Putty for Remote Management](#putty-for-remote-management)
 
 ## Initial Configuration for Windows 11
 
 ### Windows Deinshitification Updates
+
+#### Win11Debloat
+
+Using Win11Debloat to remove unnecessary Windows 11 bloatware and telemetry services.
+
+https://github.com/Raphire/Win11Debloat
+
+#### ExplorerPatcher
+
+https://github.com/valinet/ExplorerPatcher/tree/master
 
 #### Disable Internet Search for Windows Search
 
@@ -222,3 +235,8 @@ wsl --install -d <distro-name>
 https://k8slens.dev/
 
 https://k8slens.dev/download
+
+
+### Putty for Remote Management
+
+https://www.putty.org/
