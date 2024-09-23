@@ -17,6 +17,7 @@
       - [Setup Device and Account Recovery](#setup-device-and-account-recovery)
   - [Driver and 3rd Party Software Configuration](#driver-and-3rd-party-software-configuration)
     - [Nvidia Driver Updates](#nvidia-driver-updates)
+    - [UART via USB Drivers](#uart-via-usb-drivers)
   - [Office and Productivity Software](#office-and-productivity-software)
     - [Browser Install \& Setup](#browser-install--setup)
     - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
@@ -138,7 +139,9 @@ _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-ri
 
 https://www.nvidia.com/en-us/drivers
 
+### UART via USB Drivers
 
+https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
 ---
 
