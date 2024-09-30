@@ -35,6 +35,7 @@
     - [Github Desktop](#github-desktop)
     - [Install VSCode](#install-vscode)
     - [Install \& Configure Python](#install--configure-python)
+    - [Install \& Configure GO](#install--configure-go)
     - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
       - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
     - [Mirantis Lens](#mirantis-lens)
@@ -209,6 +210,10 @@ https://code.visualstudio.com/download
 
 ### Install & Configure Python
 
+
+### Install & Configure GO
+
+https://go.dev/dl/
 
 
 ### Install Ubuntu WSL2
