@@ -16,7 +16,7 @@ Documentation and best practices for development and end-user workstation deploy
 - [Samsung Galaxy Book Edge 4 (Snapdragon Elite X1E-84-100)](https://www.samsung.com/us/computing/galaxy-books/galaxy-book4-edge/)
 - [Razer Blade 15 (2020) Advanced 3070 GPU](https://mysupport.razer.com/app/answers/detail/a_id/3618/kw/Blade%2015%202020)
 - [Lenovo Yoga Pro 19 16IMH9](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-pro-9-16imh9)
-- [Apple Macbook Pro M3](https://support.apple.com/en-us/117735)
+- [Apple Macbook Pro M3](https://support.apple.com/en-us/docs/mac/301011)
 
 ## Device Paradigm Workflows
 
@@ -27,7 +27,8 @@ Documentation and best practices for development and end-user workstation deploy
 
 ### ARM Processor Workflows
 
-- Snapdragon NPU Laptop Workstation (Snapdragon Elite X1E-84-100) - [npu_workstation.md](npu_workstation.md)
+- Windows on ARM - [win_arm_workstation.md](win_arm_workstation.md)
+- Linux on ARM - [linux_arm_workstation.md](linux_arm_workstation.md)
 
 ### Apple Processor Workflows
 
