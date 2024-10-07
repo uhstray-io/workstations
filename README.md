@@ -32,7 +32,7 @@ Documentation and best practices for development and end-user workstation deploy
 
 ### Apple Processor Workflows
 
-- Apple M3 Macbook Pro - [macos-workstation.md](macos-workstation.md)
+- Apple M3 Macbook Pro - [macos_workstation.md](macos_workstation.md)
 
 ### NVIDIA GPU Workflows
 

@@ -41,6 +41,7 @@
     - [Docker](#docker)
       - [Docker Desktop](#docker-desktop)
         - [WSL2 Backend Configuration](#wsl2-backend-configuration)
+        - [WSL2 GPU Configuration](#wsl2-gpu-configuration)
         - [Docker Desktop Extensions](#docker-desktop-extensions)
       - [Docker Hub](#docker-hub)
     - [Mirantis Lens](#mirantis-lens)
@@ -248,6 +249,20 @@ wsl --install -d <distro-name>
 ##### WSL2 Backend Configuration
 
 https://docs.docker.com/desktop/wsl/
+
+##### WSL2 GPU Configuration
+
+https://docs.docker.com/desktop/gpu/
+
+Enable Nvidia Container Toolkit resources on Ubuntu 22.04 WSL:
+
+[Use the gpu_workstation.md to setup nvidia container toolkit](gpu_workstation.md)
+
+Configure Docker to use the nvidia-container-toolkit:
+
+```sh
+sudo nvidia-ctk runtime configure --runtime=docker && sudo systemctl restart docker
+```
 
 ##### Docker Desktop Extensions
 
