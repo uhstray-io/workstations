@@ -1,5 +1,7 @@
 # Machine Pre-Requisites
 
+### Windows WSL2 Ubuntu 22.04 Preparation
+
 ### Ubuntu 22.04 Preparation
 
 Here's a similar guide to setup Lambda Stack on Ubuntu 20.04 https://lambdalabs.com/blog/set-up-a-tensorflow-gpu-docker-container-using-lambda-stack-dockerfile 
