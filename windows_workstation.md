@@ -38,6 +38,11 @@
     - [Install \& Configure GO](#install--configure-go)
     - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
       - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
+    - [Docker](#docker)
+      - [Docker Desktop](#docker-desktop)
+        - [WSL2 Backend Configuration](#wsl2-backend-configuration)
+        - [Docker Desktop Extensions](#docker-desktop-extensions)
+      - [Docker Hub](#docker-hub)
     - [Mirantis Lens](#mirantis-lens)
     - [Putty for Remote Management](#putty-for-remote-management)
 
@@ -235,6 +240,20 @@ wsl --install -d <distro-name>
 ```
 
 #### Enable Remote Window with WSL2 for VSCode
+
+### Docker
+
+#### Docker Desktop
+
+##### WSL2 Backend Configuration
+
+https://docs.docker.com/desktop/wsl/
+
+##### Docker Desktop Extensions
+
+![recommended starting docker desktop extensions](.images/docker_extensions.png)
+
+#### Docker Hub
 
 ### Mirantis Lens
 
