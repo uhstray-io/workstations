@@ -36,6 +36,7 @@
     - [Install VSCode](#install-vscode)
     - [Install \& Configure Python](#install--configure-python)
     - [Install \& Configure GO](#install--configure-go)
+    - [Install Chocolatey Package Manager](#install-chocolatey-package-manager)
     - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
       - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
     - [Docker](#docker)
@@ -43,7 +44,8 @@
         - [WSL2 Backend Configuration](#wsl2-backend-configuration)
         - [WSL2 GPU Configuration](#wsl2-gpu-configuration)
         - [Docker Desktop Extensions](#docker-desktop-extensions)
-      - [Docker Hub](#docker-hub)
+    - [Kompose](#kompose)
+    - [Docker Hub](#docker-hub)
     - [Mirantis Lens](#mirantis-lens)
     - [Putty for Remote Management](#putty-for-remote-management)
 
@@ -221,6 +223,25 @@ https://code.visualstudio.com/download
 
 https://go.dev/dl/
 
+### Install Chocolatey Package Manager
+
+Start your terminal in `Administrator Mode` and then Run :
+
+```powershell
+Get-ExecutionPolicy
+```
+
+If it returns `Restricted` then run:
+
+```powershell
+Set-ExecutionPolicy AllSigned
+```
+
+Then run the below command to install Chocolatey:
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ### Install Ubuntu WSL2
 
@@ -268,7 +289,29 @@ sudo nvidia-ctk runtime configure --runtime=docker && sudo systemctl restart doc
 
 ![recommended starting docker desktop extensions](.images/docker_extensions.png)
 
-#### Docker Hub
+### Kompose
+
+Converting Docker compose files into Kubernetes Helm charts
+
+Install Kompose using Chocolatey:
+
+```sh
+choco install kubernetes-kompose
+```
+
+Use the Getting Started docs to learn more about using Kompose: https://kompose.io/getting-started/
+
+Using Kompose
+
+In the directory of your docker-compose.yaml files, run the follow command:
+
+```sh
+kompose convert
+```
+
+And Kompose will outconvert the files if the syntax in your Docker Compose files is correct.
+
+### Docker Hub
 
 ### Mirantis Lens
 
