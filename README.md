@@ -1,15 +1,15 @@
+<!-- omit in toc -->
 # workstations
 Documentation and best practices for development and end-user workstation deployment, optimization, and security.
 
+<!-- omit in toc -->
 ## Table of Contents
-- [workstations](#workstations)
-  - [Table of Contents](#table-of-contents)
-  - [Currently Tested Devices](#currently-tested-devices)
-  - [Device Paradigm Workflows](#device-paradigm-workflows)
-    - [x86\_64 Processor Workflows](#x86_64-processor-workflows)
-    - [ARM Processor Workflows](#arm-processor-workflows)
-    - [Apple Processor Workflows](#apple-processor-workflows)
-    - [NVIDIA GPU Workflows](#nvidia-gpu-workflows)
+- [Currently Tested Devices](#currently-tested-devices)
+- [Device Paradigm Workflows](#device-paradigm-workflows)
+  - [x86\_64 Processor Workflows](#x86_64-processor-workflows)
+  - [ARM Processor Workflows](#arm-processor-workflows)
+  - [Apple Processor Workflows](#apple-processor-workflows)
+  - [NVIDIA GPU Workflows](#nvidia-gpu-workflows)
 
 ## Currently Tested Devices
 
