@@ -4,12 +4,18 @@ Documentation and best practices for development and end-user workstation deploy
 
 <!-- omit in toc -->
 ## Table of Contents
+- [Contributing Guidelines](#contributing-guidelines)
 - [Currently Tested Devices](#currently-tested-devices)
 - [Device Paradigm Workflows](#device-paradigm-workflows)
   - [x86\_64 Processor Workflows](#x86_64-processor-workflows)
   - [ARM Processor Workflows](#arm-processor-workflows)
   - [Apple Processor Workflows](#apple-processor-workflows)
   - [NVIDIA GPU Workflows](#nvidia-gpu-workflows)
+
+## Contributing Guidelines
+
+- [Review our Code of Conduct](https://www.uhstray.io/en/code-of-conduct)
+- [Check our CONTRIBUTING.MD](./CONTRIBUTING.md)
 
 ## Currently Tested Devices
 
