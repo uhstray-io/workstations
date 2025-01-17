@@ -1,53 +1,61 @@
+<!-- omit in toc -->
 # Windows Workstation
 
-- [Windows Workstation](#windows-workstation)
-  - [Initial Configuration for Windows 11](#initial-configuration-for-windows-11)
-    - [Windows Deinshitification Updates](#windows-deinshitification-updates)
-      - [Win11Debloat](#win11debloat)
-      - [ExplorerPatcher](#explorerpatcher)
-      - [Disable Internet Search for Windows Search](#disable-internet-search-for-windows-search)
-      - [Disable Windows Update Delivery Optimization](#disable-windows-update-delivery-optimization)
-      - [Disable Windows Hibernation](#disable-windows-hibernation)
-      - [Enable Legacy Right Click Context Menu for Windows 11 Explorer](#enable-legacy-right-click-context-menu-for-windows-11-explorer)
-        - [Use the following commands to revert the changes:](#use-the-following-commands-to-revert-the-changes)
-    - [Setup PowerSettings to Optimize Usage and Battery Life](#setup-powersettings-to-optimize-usage-and-battery-life)
-    - [Setup Windows Secure Access](#setup-windows-secure-access)
-      - [Prompt for Scheduled Reboot Windows for Windows Updates](#prompt-for-scheduled-reboot-windows-for-windows-updates)
-      - [Force PIN Authentication](#force-pin-authentication)
-      - [Setup Device and Account Recovery](#setup-device-and-account-recovery)
-  - [Driver and 3rd Party Software Configuration](#driver-and-3rd-party-software-configuration)
-    - [Nvidia Driver Updates](#nvidia-driver-updates)
-    - [UART via USB Drivers](#uart-via-usb-drivers)
-  - [Office and Productivity Software](#office-and-productivity-software)
-    - [Browser Install \& Setup](#browser-install--setup)
-    - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
-    - [Discord](#discord)
-      - [Install Discord](#install-discord)
-      - [Creating a Company Discord Account](#creating-a-company-discord-account)
-      - [Bringing over a Personal Discord Account](#bringing-over-a-personal-discord-account)
-      - [Get Connected on Discord](#get-connected-on-discord)
-    - [Proton Mail, Drive, \& VPN](#proton-mail-drive--vpn)
-      - [Proton Mail](#proton-mail)
-      - [Proton VPN](#proton-vpn)
-      - [Proton Drive](#proton-drive)
-  - [Installing Developer Resources](#installing-developer-resources)
-    - [Download Git \& Gitbash](#download-git--gitbash)
-    - [Github Desktop](#github-desktop)
-    - [Install VSCode](#install-vscode)
-    - [Install \& Configure Python](#install--configure-python)
-    - [Install \& Configure GO](#install--configure-go)
-    - [Install Chocolatey Package Manager](#install-chocolatey-package-manager)
-    - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
-      - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
-    - [Docker](#docker)
-      - [Docker Desktop](#docker-desktop)
-        - [WSL2 Backend Configuration](#wsl2-backend-configuration)
-        - [WSL2 GPU Configuration](#wsl2-gpu-configuration)
-        - [Docker Desktop Extensions](#docker-desktop-extensions)
-    - [Kompose](#kompose)
-    - [Docker Hub](#docker-hub)
-    - [Mirantis Lens](#mirantis-lens)
-    - [Putty for Remote Management](#putty-for-remote-management)
+<!-- omit in toc -->
+## Table of Contents
+
+- [Initial Configuration for Windows 11](#initial-configuration-for-windows-11)
+  - [Windows Deinshitification Updates](#windows-deinshitification-updates)
+    - [Win11Debloat](#win11debloat)
+    - [ExplorerPatcher](#explorerpatcher)
+    - [Disable Internet Search for Windows Search](#disable-internet-search-for-windows-search)
+    - [Disable Windows Update Delivery Optimization](#disable-windows-update-delivery-optimization)
+    - [Disable Windows Hibernation](#disable-windows-hibernation)
+    - [Enable Legacy Right Click Context Menu for Windows 11 Explorer](#enable-legacy-right-click-context-menu-for-windows-11-explorer)
+      - [Use the following commands to revert the changes:](#use-the-following-commands-to-revert-the-changes)
+- [Developer Configurations](#developer-configurations)
+  - [Enable running `RemoteSigned` scripts on Windows](#enable-running-remotesigned-scripts-on-windows)
+- [Default User Configurations](#default-user-configurations)
+  - [Setup PowerSettings to Optimize Usage and Battery Life](#setup-powersettings-to-optimize-usage-and-battery-life)
+  - [Setup Windows Secure Access](#setup-windows-secure-access)
+    - [Prompt for Scheduled Reboot Windows for Windows Updates](#prompt-for-scheduled-reboot-windows-for-windows-updates)
+    - [Force PIN Authentication](#force-pin-authentication)
+    - [Setup Device and Account Recovery](#setup-device-and-account-recovery)
+- [Driver and 3rd Party Software Configuration](#driver-and-3rd-party-software-configuration)
+  - [Nvidia Driver Updates](#nvidia-driver-updates)
+  - [UART via USB Drivers](#uart-via-usb-drivers)
+- [Office and Productivity Software](#office-and-productivity-software)
+  - [Browser Install \& Setup](#browser-install--setup)
+  - [Microsoft OneDrive and Office](#microsoft-onedrive-and-office)
+  - [Discord](#discord)
+    - [Install Discord](#install-discord)
+    - [Creating a Company Discord Account](#creating-a-company-discord-account)
+    - [Bringing over a Personal Discord Account](#bringing-over-a-personal-discord-account)
+    - [Get Connected on Discord](#get-connected-on-discord)
+  - [Proton Mail, Drive, \& VPN](#proton-mail-drive--vpn)
+    - [Proton Mail](#proton-mail)
+    - [Proton VPN](#proton-vpn)
+    - [Proton Drive](#proton-drive)
+- [Installing Developer Resources](#installing-developer-resources)
+  - [Download Git \& Gitbash](#download-git--gitbash)
+  - [Github Desktop](#github-desktop)
+  - [Install VSCode](#install-vscode)
+  - [Install \& Configure Python](#install--configure-python)
+  - [Install \& Configure GO](#install--configure-go)
+  - [Install Chocolatey Package Manager](#install-chocolatey-package-manager)
+  - [Install Ubuntu WSL2](#install-ubuntu-wsl2)
+    - [Enable Remote Window with WSL2 for VSCode](#enable-remote-window-with-wsl2-for-vscode)
+  - [Docker](#docker)
+    - [Docker Desktop](#docker-desktop)
+      - [WSL2 Backend Configuration](#wsl2-backend-configuration)
+      - [WSL2 GPU Configuration](#wsl2-gpu-configuration)
+      - [Docker Desktop Extensions](#docker-desktop-extensions)
+  - [Kompose](#kompose)
+  - [Docker Hub](#docker-hub)
+  - [Mirantis Lens](#mirantis-lens)
+  - [Putty for Remote Management](#putty-for-remote-management)
+
+---
 
 ## Initial Configuration for Windows 11
 
@@ -129,6 +137,30 @@ start explorer.exe
 Explorer must be restarted again for the effects to take change.
 
 _Reference: https://answers.microsoft.com/en-us/windows/forum/all/restore-old-right-click-context-menu-in-windows-11/a62e797c-eaf3-411b-aeec-e460e6e5a82a_
+
+---
+
+## Developer Configurations
+
+### Enable running `RemoteSigned` scripts on Windows
+
+Run Powershell as an Administrator and run the following commands:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+#or
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Hit `[Y]` or `[A]` to confirm the changes.
+
+See the updated execution policy.
+
+```powershell
+Get-ExecutionPolicy -List
+```
+
+## Default User Configurations
 
 ### Setup PowerSettings to Optimize Usage and Battery Life
 
