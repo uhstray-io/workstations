@@ -97,6 +97,20 @@ Install Docker Dependencies:
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+Initialize GPG Key:
+
+```bash
+gpg --generate-key
+```
+
+Copy the GPG key from the output to clipboard:
+
+Initialize your GPG key.
+
+```bash
+pass init <my_key>
+```
+
 Download the Docker Desktop .deb file from the official website:
 
 ```bash
