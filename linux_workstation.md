@@ -92,6 +92,11 @@ echo \
 sudo apt-get update
 ```
 
+Install Docker Dependencies:
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
 Download the Docker Desktop .deb file from the official website:
 
 ```bash
