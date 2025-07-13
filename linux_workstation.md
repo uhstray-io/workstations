@@ -123,3 +123,32 @@ Install the downloaded .deb file:
 sudo apt update
 sudo apt install ./docker-desktop-amd64.deb
 ```
+
+Install NixOS
+
+Mulit-user install:
+```bash
+sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+```
+
+
+NixOS Initial Multi-user Setup:
+
+https://nix.dev/manual/nix/2.28/installation/multi-user
+
+
+https://www.cyberciti.biz/faq/bash-for-loop/
+
+Create 10 build users:
+```bash
+sudo for n in $(seq 1 10) 
+do 
+    useradd -c "Nix build user $n" \
+    -d /var/empty -g nixbld -G nixbld -M -N -r -s "$(which nologin)" \
+    nixbld$n 
+done
+```
+
+Configuring NixOS machine for RustDesk Compatibility:
+
+```bash
